@@ -963,7 +963,7 @@ CLEAN_FILES +=	busybox busybox_unstripped* busybox.links \
 
 # Directories & files removed with 'make mrproper'
 MRPROPER_DIRS  += include/config include2
-MRPROPER_FILES += .config .config.old include/asm .version .old_version \
+MRPROPER_FILES += .config.old include/asm .version .old_version \
 		  include/NUM_APPLETS.h \
 		  include/autoconf.h \
 		  include/bbconfigopts.h \
