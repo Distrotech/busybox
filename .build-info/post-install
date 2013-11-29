@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ${HOST}
+mkdir -p ${3}/boot
+tar -cf ${3}/boot/busybox.tgz *
