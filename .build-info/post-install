@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd ${HOST}
+cd _install
 mkdir -p ${3}/boot
 tar -cf ${3}/boot/busybox.tgz *
